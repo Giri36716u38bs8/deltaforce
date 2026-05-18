@@ -1,0 +1,45 @@
+body{
+    background-color:blue;
+}
+.amma{
+
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: min-content;
+    
+    background-color: aqua;
+    justify-content: center ;
+    align-items: start;
+
+    position: relative;
+
+    overflow: hidden;
+
+
+
+}
+.go{
+    height: 10px;
+    width: 100px;
+    padding: 100px;
+
+    background-color: blanchedalmond;
+    align-content: center;
+    text-align:center;
+    
+    
+}
+.go:hover{
+    background-color: chartreuse;
+
+}
+h1{
+    display: inline-block;
+    width:300px;
+
+}
+h2{
+
+    width: 300px;
+    margin-left: 500px;
+}
